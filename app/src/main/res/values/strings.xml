@@ -2,4 +2,10 @@
     <string name="app_name">MadLevel7Task2</string>
     <string name="welcome_to_the_football_quest">Welcome to the football quest!</string>
     <string name="introduction_text">After pressing start you will start the quest. At the end there will be a prize waiting for you! </string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>

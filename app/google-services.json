@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636878999044",
+    "project_id": "madlevel7task2-1be15",
+    "storage_bucket": "madlevel7task2-1be15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636878999044:android:f4c153fb6d2c49bb062f51",
+        "android_client_info": {
+          "package_name": "com.example.madlevel7level2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636878999044-c15gvcun1oi8qe77biphoc1h9mlc4j53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpJ6wk7IM0trPyx7aFVNuWwMW6m6CfQDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636878999044-c15gvcun1oi8qe77biphoc1h9mlc4j53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
