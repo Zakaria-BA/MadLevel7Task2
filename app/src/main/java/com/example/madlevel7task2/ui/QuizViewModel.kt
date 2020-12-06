@@ -15,7 +15,7 @@ import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.launch
 
 class QuizViewModel(application: Application) : AndroidViewModel(application) {
-    private val _quiz: MutableLiveData<List<Quiz>> = MutableLiveData()
+    private val _quiz: MutableLiveData<ArrayList<Quiz>> = MutableLiveData()
 
     val quiz = _quiz
 
