@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MadLevel7Task2</string>
+    <string name="welcome_to_the_football_quest">Welcome to the football quest!</string>
+    <string name="introduction_text">After pressing start you will start the quest. At the end there will be a prize waiting for you! </string>
+</resources>
