@@ -1,6 +1,8 @@
 package com.example.madlevel7task2.ui
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.RadioButton
 import androidx.activity.viewModels
@@ -24,10 +26,8 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun initViews(){
-        tvVraag.text = quiz[0].vraag
-        radio_1.text = quiz[0].antwoorden[0]
-        radio_2.text = quiz[0].antwoorden[1]
-        radio_3.text = quiz[0].antwoorden[2]
+
+        Log.d(TAG, quiz.toString())
     }
 
     fun onRadioButtonClicked(view: View) {

@@ -1,8 +1,10 @@
 package com.example.madlevel7task2.ui
 
+import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
 import androidx.fragment.app.activityViewModels
 import com.example.madlevel7task2.R
@@ -15,11 +17,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        quizViewModel.getQuiz()
         startQuiz.setOnClickListener { navigateUser() }
     }
 
     private fun navigateUser(){
+        Log.d(ContentValues.TAG, "We gaan beginnen")
+        quizViewModel.getQuiz()
+        Log.d(ContentValues.TAG, "Done")
+
         startActivity(Intent(this, QuizActivity::class.java))
     }
 }
