@@ -28,7 +28,7 @@ class QuizRepository {
         get() = _retrieveSucces
 
     suspend fun getQuiz() {
-        var quizQuestions: ArrayList<Quiz> = ArrayList()
+        val quizQuestions: ArrayList<Quiz> = ArrayList()
         try {
             withTimeout(5_000) {
                 val data = quizVragen
@@ -40,6 +40,8 @@ class QuizRepository {
 
                     val currentQuiz = Quiz(currentItem.getString("vraag").toString(), antwoorden, currentItem.getString("goeie_antwoord").toString())
                     quizQuestions.add(currentQuiz)
+                    Log.d(TAG, currentQuiz.toString())
+                    Log.d(TAG, quizQuestions.toString())
                 }
                 _retrieveSucces.value = true
                 _quiz.value = quizQuestions
