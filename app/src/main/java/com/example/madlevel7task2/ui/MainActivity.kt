@@ -25,6 +25,6 @@ class MainActivity : AppCompatActivity() {
         quizViewModel.getQuiz()
         Log.d(ContentValues.TAG, "Done")
 
-        startActivity(Intent(this, QuizActivity::class.java))
+//        startActivity(Intent(this, QuizActivity::class.java))
     }
 }
